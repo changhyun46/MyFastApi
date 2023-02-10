@@ -20,15 +20,28 @@ direction: right
     PS C:\PycharmProjects> git config --global user.email "changhyun46@gmail.com"
     PS C:\PycharmProjects> git config --global user.name "changhyun46"
 
+
+    
+    // git 초기화
+    git init
+
+
     4. repository 연결
     git remote add origin username@bitbucket.org/myname/myproject.git
     연결된 repo 확인 (fetch / push 주소 확인)
     
     git remote -v
-     
+
+    // 브랜치 뭐뭐 있는 지 확인
+    git branch
+    // 브랜치를 main 으로 변경
+    git branch main
+    git checkout main
+    git branch -d master
+    
     
     5. 새 repository에서 내용을 pull 받음으로써 git history를 동기화
-    git pull origin master
+    git pull origin main
      
     
     6. 새 repository에 파일을 업로드 하기 위해 스테이지에 파일 올림
@@ -42,16 +55,9 @@ direction: right
      
     
     8. repository에 파일 업로드
-    git push -u origin master
+    git push -u origin main
         
 
-
-    git branch main
-    git checkout main
-    git branch -d master
-    
-    // 브랜치 뭐뭐 있는 지 확인
-    git branch
 
   |
 }
