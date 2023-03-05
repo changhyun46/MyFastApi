@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: gaia
+theme: uncover
 size: 4:3
 paginate: true
 footer: "[hashbangcode.com](https://www.hashbangcode.com)"
@@ -111,7 +111,9 @@ Hello, world!
 
 # 3rd page
 
+'Win' + '.'
 😃
+😁
 
 ---
 
